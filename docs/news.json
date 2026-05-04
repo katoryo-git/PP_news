@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T15:40:48Z",
+  "lastUpdated": "2026-05-04T16:27:43Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -221,7 +221,7 @@
       "date": "2025-04-28",
       "title": "Microsoft Copilot Studio ❤️ MCP",
       "titleOriginal": "Microsoft Copilot Studio ❤️ MCP",
-      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合するための革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
+      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合する革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
