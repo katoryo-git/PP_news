@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T16:11:07Z",
+  "lastUpdated": "2026-05-09T15:43:32Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -136,7 +136,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに導入します。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: M365 Model-driven Apps の Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
@@ -147,9 +147,9 @@
     },
     {
       "date": "2026-02-11",
-      "title": "Public Preview: ビジネス アプリケーション向けの Power Apps MCP および拡張 Agent Feed",
+      "title": "Public Preview: ビジネス アプリケーション向けの Power Apps MCP および拡張された Agent Feed",
       "titleOriginal": "Public preview: Power Apps MCP and enhanced agent feed for your business applications",
-      "summary": "Power Apps MCP Server (Public Preview) は、人間と Agent コラボレーションの新時代を導入し、AI Agents が人間の監視機能を組み込んで反復的なアプリのタスクを自動化できるようにします。メーカーは、再設計された Agent Feed でどのタスクが表示されるかを詳細に制御できるようになり、ユーザーは直感的なレビューと承認を得ることができます。",
+      "summary": "Power Apps MCP Server (Public Preview) は、人間と Agent コラボレーションの新時代を導入し、AI Agents が人間の監視機能を組み込んで反復的なアプリのタスクを自動化できるようにします。メーカーは、再設計された Agent Feed でどのタスクが表示されるかを詳細に制御できるようになり、ユーザーは直感的なレビューと結果を得ることができます。",
       "product": "Power Apps",
       "tags": [
         "Power Apps"
