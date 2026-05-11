@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T15:45:01Z",
+  "lastUpdated": "2026-05-11T17:21:19Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -43,7 +43,7 @@
       "date": "2026-04-08",
       "title": "Power Platform モニター アラートは Generally Available になりました",
       "titleOriginal": "Power Platform Monitor Alerts Are Now Generally Available",
-      "summary": "アプリ、Agents、およびフローの Power Platform モニター アラートが Generally Available になったことを発表できることを嬉しく思います。モニター アラートは、品質向上のための継続的な投資を経て、General Availability に必要な信頼性と成熟度の基準を満たしています。 Power Platform モニター エールの投稿...",
+      "summary": "アプリ、Agents、およびフローの Power Platform モニター アラートが Generally Available になったことを発表できることを嬉しく思います。モニター アラートは、品質を向上させるための継続的な投資を経て、General Availability に必要な信頼性と成熟度の基準を満たしています。 Power Platform モニター エールの投稿...",
       "product": "Power Platform",
       "tags": [],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-monitor-alerts-are-now-generally-available/",
@@ -136,7 +136,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに導入します。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: M365 Model-driven Apps の Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
@@ -149,7 +149,7 @@
       "date": "2026-02-11",
       "title": "Public Preview: ビジネス アプリケーション向けの Power Apps MCP および拡張された Agent Feed",
       "titleOriginal": "Public preview: Power Apps MCP and enhanced agent feed for your business applications",
-      "summary": "Power Apps MCP Server (Public Preview) は、人間と Agent コラボレーションの新時代を導入し、AI Agents が人間の監視機能を組み込んで反復的なアプリのタスクを自動化できるようにします。メーカーは、再設計された Agent Feed でどのタスクが表示されるかを詳細に制御できるようになり、ユーザーは直感的なレビューと結果を得ることができます。",
+      "summary": "Power Apps MCP Server (Public Preview) は、人間と Agent コラボレーションの新時代を導入し、AI Agents が人間の監視機能を組み込んで反復的なアプリのタスクを自動化できるようにします。メーカーは、再設計された Agent Feed でどのタスクが表示されるかをきめ細かく制御できるようになり、ユーザーは直感的なレビューと結果を得ることができます。",
       "product": "Power Apps",
       "tags": [
         "Power Apps"
@@ -185,7 +185,7 @@
       "date": "2025-08-20",
       "title": "Copilot Studio Agent Academy の発表: あなたの使命は今始まります",
       "titleOriginal": "Announcing Copilot Studio Agent Academy: Your Mission Starts Now",
-      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、自分のペースで進められる Copilot Studio Agent Academy を導入できることを嬉しく思います。",
+      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、マイペースな Copilot Studio Agent Academy を導入できることを嬉しく思います。",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
@@ -221,7 +221,7 @@
       "date": "2025-04-28",
       "title": "Microsoft Copilot Studio ❤️ MCP",
       "titleOriginal": "Microsoft Copilot Studio ❤️ MCP",
-      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合するための革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
+      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合する革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
