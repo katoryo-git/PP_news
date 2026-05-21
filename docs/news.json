@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T17:51:00Z",
+  "lastUpdated": "2026-05-21T17:27:57Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -31,7 +31,7 @@
       "date": "2026-04-30",
       "title": "Dataverse プラグインがクロード マーケットプレイスに登場",
       "titleOriginal": "Dataverse Plugin Is Now on the Claude Marketplace",
-      "summary": "Dataverse は、エンタープライズ アプリケーションを構築するための強力なプラットフォームを開発者に提供します。ただし、ゼロから接続された作業環境に移行するには、常に複数のツール、認証フロー、構成手順が必要です。 Dataverse プラグインは、AI がその取り組みを加速できるように構築されました。",
+      "summary": "Dataverse は、開発者にエンタープライズ アプリケーションを構築するための強力なプラットフォームを提供します。ただし、ゼロから接続された作業環境に移行するには、常に複数のツール、認証フロー、構成手順が必要です。 Dataverse プラグインは、AI がその取り組みを加速できるように構築されました。",
       "product": "Dataverse",
       "tags": [
         "Dataverse"
@@ -160,7 +160,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: M365 Model-driven Apps の Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
@@ -185,7 +185,7 @@
       "date": "2025-08-20",
       "title": "Copilot Studio Agent Academy の発表: あなたの使命は今始まります",
       "titleOriginal": "Announcing Copilot Studio Agent Academy: Your Mission Starts Now",
-      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、自分のペースで進められる Copilot Studio Agent Academy を導入できることを嬉しく思います。",
+      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、マイペースな Copilot Studio Agent Academy を導入できることを嬉しく思います。",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
@@ -221,7 +221,7 @@
       "date": "2025-04-28",
       "title": "Microsoft Copilot Studio ❤️ MCP",
       "titleOriginal": "Microsoft Copilot Studio ❤️ MCP",
-      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合するための革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
+      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合する革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
