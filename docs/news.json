@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T16:00:29Z",
+  "lastUpdated": "2026-05-31T16:00:53Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -114,7 +114,7 @@
       "date": "2026-04-01",
       "title": "Dataverse スキル: あなたのコーディング Agent が Dataverse を話すようになりました",
       "titleOriginal": "Dataverse Skills: Your Coding Agent Now Speaks Dataverse",
-      "summary": "エンタープライズ ソリューションの構築は、コードの作成から AI Agents の指示へと移行しています。開発者は API、CLI、スクリプトをつなぎ合わせる代わりに、意図を記述して Agents を実行させることが増えています。 Dataverse のようなエンタープライズ プラットフォームの場合、これにより新しい要件が作成されます。",
+      "summary": "エンタープライズ ソリューションの構築は、コードの作成から AI Agents の指示へと移行しています。開発者は、API、CLI、スクリプトをつなぎ合わせるのではなく、意図を記述して Agents を実行させることが増えています。 Dataverse のようなエンタープライズ プラットフォームの場合、これにより新しい要件が作成されます。",
       "product": "Dataverse",
       "tags": [
         "Dataverse"
@@ -185,7 +185,7 @@
       "date": "2025-08-20",
       "title": "Copilot Studio Agent Academy の発表: あなたの使命は今始まります",
       "titleOriginal": "Announcing Copilot Studio Agent Academy: Your Mission Starts Now",
-      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、自分のペースで進められる Copilot Studio Agent Academy を導入できることを嬉しく思います。",
+      "summary": "Copilot Studio Agent Academy AI Agents への取り組みを始めたばかりの場合でも、Microsoft Copilot Studio のスキルを磨きたいと考えている場合でも、ミッションの概要を説明する準備ができています。準備を整えましょう。新しい、マイペースな Copilot Studio Agent Academy を導入できることを嬉しく思います。",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
@@ -221,7 +221,7 @@
       "date": "2025-04-28",
       "title": "Microsoft Copilot Studio ❤️ MCP",
       "titleOriginal": "Microsoft Copilot Studio ❤️ MCP",
-      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合するための革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
+      "summary": "AI Agents がライブ データを利用したり、組み込み機能を超えたアクションを実行できたらと思ったことはありませんか? Model Context Protocol (MCP) を入力してください。これは、外部ツールとデータ ソースを Copilot Studio Agents に直接統合する革新的なツールです。 🧠 MCPとは何ですか? MCP は、...",
       "product": "Copilot Studio",
       "tags": [
         "Copilot Studio"
