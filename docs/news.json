@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T18:53:28Z",
+  "lastUpdated": "2026-06-17T17:46:43Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -17,7 +17,7 @@
     },
     {
       "date": "2026-05-12",
-      "title": "Power Apps MCP Server はエンタープライズ向け閉ループ学習を導入 Agents",
+      "title": "Power Apps MCP Server はエンタープライズ向けの閉ループ学習を導入 Agents",
       "titleOriginal": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
       "summary": "Agents のビルドは高速です。組織がどのように機能するかを彼らに教えるのは難しい部分でした。 Power Apps MCP Server の閉ループ学習の導入: すべての修正により、ビジネスに合わせて Agent が自動的に調整されます。投稿 Power Apps MCP Server では、エンタープライズ向けの閉ループ学習を紹介しています。",
       "product": "Power Apps",
@@ -160,7 +160,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: M365 Model-driven Apps の Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに導入します。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
