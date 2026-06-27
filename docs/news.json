@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T16:56:56Z",
+  "lastUpdated": "2026-06-27T15:59:51Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -31,7 +31,7 @@
       "date": "2026-05-12",
       "title": "Power Apps MCP Server はエンタープライズ向けの閉ループ学習を導入 Agents",
       "titleOriginal": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
-      "summary": "Agents のビルドは高速です。組織がどのように機能するかを彼らに教えるのは難しい部分でした。 Power Apps MCP Server の閉ループ学習の導入: すべての修正により、Agent がビジネスに合わせて自動的に調整されます。投稿 Power Apps MCP Server では、エンタープライズ向けの閉ループ学習を紹介しています。",
+      "summary": "Agents のビルドは高速です。組織がどのように機能するかを彼らに教えるのは難しい部分でした。 Power Apps MCP Server の閉ループ学習の導入: すべての修正により、ビジネスに合わせて Agent が自動的に調整されます。投稿 Power Apps MCP Server では、エンタープライズ向けの閉ループ学習を紹介しています。",
       "product": "Power Apps",
       "tags": [
         "Power Apps"
@@ -172,7 +172,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: M365 Model-driven Apps の Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
@@ -183,7 +183,7 @@
     },
     {
       "date": "2026-01-14",
-      "title": "Announcing Agent Academy: Operative",
+      "title": "Agent Academy の発表: 稼働中",
       "titleOriginal": "Announcing Agent Academy: Operative",
       "summary": "今年の初めに、Agent Academy: Recruit を開始しました。これは、メーカーや開発者が Copilot Studio で Agents の構築を開始できるように設計された基礎的な学習パスです。反応は私たちの予想を上回りました。開始以来、何千人もの学習者がリクルートのカリキュラムに取り組んできました。",
       "product": "Copilot Studio",
@@ -207,7 +207,7 @@
     },
     {
       "date": "2025-07-30",
-      "title": "Introducing Plan Validation in Copilot Studio Kit",
+      "title": "Copilot Studio キットでのプラン検証の導入",
       "titleOriginal": "Introducing Plan Validation in Copilot Studio Kit",
       "summary": "Agent の答えは正しいのに、なぜ間違った理由があるのか​​疑問に思ったことはありませんか?認識論に簡単に踏み込みながら、なぜそれが重要なのかを詳しく見ていきましょう (ご容赦ください!) 知識: 単なる正しい答え以上のもの 誰かに時間を尋ねると、その人が自信を持って「午後 2 時 30 分」と答えると想像してみてください。彼らは正しいのですが、それは...",
       "product": "Copilot Studio",
