@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T16:04:41Z",
+  "lastUpdated": "2026-06-29T17:30:52Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
@@ -29,7 +29,7 @@
     },
     {
       "date": "2026-05-12",
-      "title": "Power Apps MCP Server はエンタープライズ向けの閉ループ学習を導入 Agents",
+      "title": "Power Apps MCP Server はエンタープライズ向け閉ループ学習を導入 Agents",
       "titleOriginal": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
       "summary": "Agents のビルドは高速です。組織がどのように機能するかを彼らに教えるのは難しい部分でした。 Power Apps MCP Server の閉ループ学習の導入: すべての修正により、Agent がビジネスに合わせて自動的に調整されます。投稿 Power Apps MCP Server では、エンタープライズ向けの閉ループ学習を紹介しています。",
       "product": "Power Apps",
@@ -43,7 +43,7 @@
       "date": "2026-04-30",
       "title": "Dataverse プラグインがクロード マーケットプレイスに登場",
       "titleOriginal": "Dataverse Plugin Is Now on the Claude Marketplace",
-      "summary": "Dataverse は、エンタープライズ アプリケーションを構築するための強力なプラットフォームを開発者に提供します。ただし、ゼロから接続された作業環境に移行するには、常に複数のツール、認証フロー、構成手順が必要です。 Dataverse プラグインは、AI がその取り組みを加速できるように構築されました。",
+      "summary": "Dataverse は、開発者にエンタープライズ アプリケーションを構築するための強力なプラットフォームを提供します。ただし、ゼロから接続された作業環境に移行するには、常に複数のツール、認証フロー、構成手順が必要です。 Dataverse プラグインは、AI がその取り組みを加速できるように構築されました。",
       "product": "Dataverse",
       "tags": [
         "Dataverse"
@@ -79,7 +79,7 @@
       "date": "2026-04-08",
       "title": "Power Platform モニター アラートは Generally Available になりました",
       "titleOriginal": "Power Platform Monitor Alerts Are Now Generally Available",
-      "summary": "アプリ、Agents、およびフローの Power Platform モニター アラートが Generally Available になったことを発表できることを嬉しく思います。モニター アラートは、品質向上のための継続的な投資を経て、General Availability に必要な信頼性と成熟度の基準を満たしています。 Power Platform モニター エールの投稿...",
+      "summary": "アプリ、Agents、およびフローの Power Platform モニター アラートが Generally Available になったことを発表できることを嬉しく思います。モニター アラートは、品質を向上させるための継続的な投資を経て、General Availability に必要な信頼性と成熟度の基準を満たしています。 Power Platform モニター エールの投稿...",
       "product": "Power Platform",
       "tags": [],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-monitor-alerts-are-now-generally-available/",
@@ -172,7 +172,7 @@
       "date": "2026-02-17",
       "title": "Power Platform の新機能: 2026 年 2 月の機能更新",
       "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに組み込みます。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
+      "summary": "アプリ、Agents および Copilot Public Preview: Model-driven Apps の M365 Copilot チャット Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネス プロセスのフローに導入します。投稿 Power Platform の新機能: 2026 年 2 月の機能...",
       "product": "Power Apps",
       "tags": [
         "Power Apps",
