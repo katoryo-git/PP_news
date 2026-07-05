@@ -237,6 +237,11 @@ def strip_html(text: str) -> str:
     return text
 
 
+def looks_translated(s: str) -> bool:
+    """日本語(ひらがな/カタカナ/漢字)を含むかで翻訳済みかを判定する"""
+    return bool(re.search(r"[぀-ヿ㐀-鿿]", s or ""))
+
+
 def translate_batch(texts: list) -> list:
     """
     複数テキストをまとめて英語→日本語に翻訳する (DeepL API)。
@@ -342,11 +347,14 @@ def parse_rss(xml_bytes: bytes, source: str, cache: dict) -> list:
 
         summary_en = desc_en[:300] + "..." if len(desc_en) > 300 else desc_en
 
-        # --- 翻訳キャッシュ: 原文が前回と一致すれば既訳を再利用 ---
+        # --- 翻訳キャッシュ: 原文が前回と一致し、かつ実際に翻訳済みなら再利用 ---
+        # 翻訳失敗で英語のまま保存された項目 (looks_translated が False) は
+        # キャッシュ扱いにせず再翻訳する。これによりキー未設定で汚れたキャッシュが自己修復する。
         prev = cache.get(link)
         if (prev and prev.get("titleOriginal") == title_en
                 and prev.get("summaryOriginal") == summary_en
-                and prev.get("title") and prev.get("summary")):
+                and prev.get("title") and prev.get("summary")
+                and (looks_translated(prev.get("title")) or looks_translated(prev.get("summary")))):
             title_ja = prev["title"]
             summary_ja = prev["summary"]
             print(f"  Cached:      {title_en[:60]}...")
