@@ -5,20 +5,40 @@ Power Platform ニュース ダイジェスト - RSS フィード取得スクリ
   1. Power Platform Blog (powerapps.microsoft.com/en-us/blog/feed/)
   2. Power Platform Developer Blog (devblogs.microsoft.com/powerplatform/feed/)
 
-機械翻訳: Google翻訳の無料WebAPI
-  - 製品名・固有名詞・技術用語は英語のまま保持 (約110ワード)
+機械翻訳: DeepL API (Free)
+  - 製品名・固有名詞・技術用語は用語集(glossary)で英語のまま保持
+  - 用語集は create_glossary.py で一度だけ作成し、glossary_id を環境変数で渡す
+翻訳キャッシュ:
+  - 既存 docs/news.json を読み込み、原文(titleOriginal)が一致する記事は既訳を再利用
 出力: docs/news.json
+
+必要な環境変数:
+  DEEPL_API_KEY      : DeepL の認証キー (末尾 :fx が付くのが Free 版)
+  DEEPL_GLOSSARY_ID  : (任意) create_glossary.py が出力した glossary_id
 """
 
 import json
+import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from html import unescape
+
+
+# ========== DeepL 設定 ==========
+DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
+DEEPL_GLOSSARY_ID = os.environ.get("DEEPL_GLOSSARY_ID", "").strip()
+# Free 版はキー末尾が ":fx"。それに応じてエンドポイントを切り替える
+DEEPL_ENDPOINT = (
+    "https://api-free.deepl.com/v2/translate"
+    if DEEPL_API_KEY.endswith(":fx")
+    else "https://api.deepl.com/v2/translate"
+)
 
 
 FEEDS = [
@@ -50,8 +70,9 @@ PRODUCT_PRIORITY = [
 ]
 
 # 英語のまま残すキーワード (約110ワード)
-# 翻訳時にプレースホルダーに置換し、翻訳後に戻す
-# 長いキーワードから先に処理されるため、順序は自動ソートされる
+# create_glossary.py がこの一覧から DeepL の用語集(glossary)を作成する。
+# 各語を「英語→同じ英語」の対応として登録することで、翻訳時に英語のまま保持される。
+# ここを更新したら create_glossary.py を再実行し、新しい glossary_id を設定すること。
 KEEP_ENGLISH_KEYWORDS = [
     # ========== Microsoft製品・プラットフォーム ==========
     "Microsoft Power Platform",
@@ -205,76 +226,64 @@ def fetch_feed(url: str) -> bytes:
 def strip_html(text: str) -> str:
     text = unescape(text)
     text = re.sub(r"<[^>]+>", "", text)
+    # WordPress RSS 定番の "The post ... appeared first on ..." 定型文を除去
+    # (翻訳すると「投稿 ... 最初に表示されました」というゴミになるため翻訳前に落とす)
+    text = re.sub(r"The post\s+.*?appeared first on.*$", "", text,
+                  flags=re.IGNORECASE | re.DOTALL)
+    # "Read more" / "Continue reading" などの末尾リンク文言も除去
+    text = re.sub(r"(Read more|Continue reading)\b.*$", "", text,
+                  flags=re.IGNORECASE | re.DOTALL)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-def protect_keywords(text: str) -> tuple:
+def translate_batch(texts: list) -> list:
     """
-    残すキーワードをプレースホルダーに置換する。
-    長いキーワードから順に処理 (部分一致による誤置換を防ぐ)
+    複数テキストをまとめて英語→日本語に翻訳する (DeepL API)。
+    固有名詞は glossary (DEEPL_GLOSSARY_ID) で英語のまま保持される。
+    失敗時は入力テキストをそのまま返す (英語のまま表示)。
     """
-    mapping = {}
-    protected = text
-    sorted_keywords = sorted(set(KEEP_ENGLISH_KEYWORDS), key=len, reverse=True)
+    # 空でない要素だけ翻訳対象にし、インデックスを保持
+    indexed = [(i, t) for i, t in enumerate(texts) if t and t.strip()]
+    result = list(texts)
+    if not indexed:
+        return result
+    if not DEEPL_API_KEY:
+        print("  DEEPL_API_KEY 未設定のため翻訳をスキップします", file=sys.stderr)
+        return result
 
-    for keyword in sorted_keywords:
-        pattern = re.compile(r'\b' + re.escape(keyword) + r'\b', re.IGNORECASE)
-
-        def replace_fn(match):
-            placeholder_idx = len(mapping)
-            placeholder = f"XKEEPX{placeholder_idx}XKEEPX"
-            mapping[placeholder] = keyword
-            return placeholder
-
-        protected = pattern.sub(replace_fn, protected)
-
-    return protected, mapping
-
-
-def restore_keywords(text: str, mapping: dict) -> str:
-    """プレースホルダーを元の英語キーワードに戻す"""
-    result = text
-    for placeholder, keyword in mapping.items():
-        result = result.replace(placeholder, keyword)
-        # Google翻訳がスペースや大文字小文字を変えた場合の救済
-        idx = list(mapping.keys()).index(placeholder)
-        loose_pattern = re.compile(
-            r'x\s*keep\s*x\s*' + str(idx) + r'\s*x\s*keep\s*x',
-            re.IGNORECASE
-        )
-        result = loose_pattern.sub(keyword, result)
-    return result
-
-
-def translate_to_ja(text: str) -> str:
-    """英語→日本語翻訳。固有名詞は英語のまま保持"""
-    if not text or not text.strip():
-        return text
-    if len(text) > 1500:
-        text = text[:1500]
-
-    protected_text, mapping = protect_keywords(text)
+    payload = {
+        "text": [t for _, t in indexed],
+        "source_lang": "EN",   # glossary 利用時は source_lang 必須
+        "target_lang": "JA",
+    }
+    if DEEPL_GLOSSARY_ID:
+        payload["glossary_id"] = DEEPL_GLOSSARY_ID
 
     try:
-        params = {
-            "client": "gtx",
-            "sl": "en",
-            "tl": "ja",
-            "dt": "t",
-            "q": protected_text,
-        }
-        url = "https://translate.googleapis.com/translate_a/single?" + urllib.parse.urlencode(params)
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        req = urllib.request.Request(
+            DEEPL_ENDPOINT,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}",
+                "Content-Type": "application/json",
+                "User-Agent": "PPNewsDigest/2.0",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        if data and data[0]:
-            translated = "".join(seg[0] for seg in data[0] if seg[0])
-            translated = translated.strip() or text
-            return restore_keywords(translated, mapping)
+        translations = data.get("translations", [])
+        for (orig_idx, _), tr in zip(indexed, translations):
+            translated = (tr.get("text") or "").strip()
+            if translated:
+                result[orig_idx] = translated
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:200]
+        print(f"  DeepL HTTP {e.code}: {body}", file=sys.stderr)
     except Exception as e:
         print(f"  Translation failed: {e}", file=sys.stderr)
-    return text
+    return result
 
 
 def detect_products(title: str, summary: str) -> list:
@@ -306,7 +315,7 @@ def parse_date(date_str: str) -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def parse_rss(xml_bytes: bytes, source: str) -> list:
+def parse_rss(xml_bytes: bytes, source: str, cache: dict) -> list:
     items = []
     try:
         root = ET.fromstring(xml_bytes)
@@ -333,16 +342,25 @@ def parse_rss(xml_bytes: bytes, source: str) -> list:
 
         summary_en = desc_en[:300] + "..." if len(desc_en) > 300 else desc_en
 
-        print(f"  Translating: {title_en[:60]}...")
-        title_ja = translate_to_ja(title_en)
-        summary_ja = translate_to_ja(summary_en)
-        time.sleep(0.5)
+        # --- 翻訳キャッシュ: 原文が前回と一致すれば既訳を再利用 ---
+        prev = cache.get(link)
+        if (prev and prev.get("titleOriginal") == title_en
+                and prev.get("summaryOriginal") == summary_en
+                and prev.get("title") and prev.get("summary")):
+            title_ja = prev["title"]
+            summary_ja = prev["summary"]
+            print(f"  Cached:      {title_en[:60]}...")
+        else:
+            print(f"  Translating: {title_en[:60]}...")
+            title_ja, summary_ja = translate_batch([title_en, summary_en])
+            time.sleep(0.3)
 
         items.append({
             "date": date,
             "title": title_ja,
             "titleOriginal": title_en,
             "summary": summary_ja,
+            "summaryOriginal": summary_en,
             "product": primary_product,
             "tags": products,
             "url": link,
@@ -352,14 +370,29 @@ def parse_rss(xml_bytes: bytes, source: str) -> list:
     return items
 
 
+def load_cache(path: str) -> dict:
+    """既存 news.json を url -> item の辞書として読み込む (翻訳キャッシュ用)"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return {it["url"]: it for it in data.get("items", []) if it.get("url")}
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        return {}
+
+
 def main():
+    output_path = "docs/news.json"
+    cache = load_cache(output_path)
+    if cache:
+        print(f"Cache: {len(cache)} previously translated items loaded")
+
     all_items = []
 
     for feed in FEEDS:
         print(f"Fetching: {feed['url']}")
         try:
             xml_bytes = fetch_feed(feed["url"])
-            items = parse_rss(xml_bytes, feed["source"])
+            items = parse_rss(xml_bytes, feed["source"], cache)
             print(f"  Found {len(items)} items")
             all_items.extend(items)
         except Exception as e:
@@ -377,11 +410,10 @@ def main():
     output = {
         "lastUpdated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "totalCount": len(unique_items),
-        "translationNote": "タイトル・要約はGoogle翻訳による機械翻訳です (固有名詞は英語のまま保持)",
+        "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
         "items": unique_items,
     }
 
-    output_path = "docs/news.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 

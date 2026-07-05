@@ -23,6 +23,9 @@ jobs:
           python-version: '3.12'
 
       - name: Fetch RSS feeds and generate news.json
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          DEEPL_GLOSSARY_ID: ${{ secrets.DEEPL_GLOSSARY_ID }}
         run: python fetch_news.py
 
       - name: Commit if changed
