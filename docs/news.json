@@ -1,8 +1,23 @@
 {
-  "lastUpdated": "2026-07-30T16:21:03Z",
+  "lastUpdated": "2026-07-31T16:40:01Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-07-31",
+      "title": "Power Pages の拡張認証機能",
+      "titleOriginal": "Power Pages Enhanced Authorization",
+      "summary": "Power Pages 向けの Dataverse ネイティブ認証モデル マッピングされた ID、セキュリティロール、レコードフィルターが、外部ユーザーの認証をデータにより近い位置で実現する仕組み。Power Pages のセキュリティモデルに大幅な更新が導入されました。外部ユーザーの認証が、Dataverse 内でネイティブに適用されるようになりました...",
+      "summaryOriginal": "Dataverse Native Authorization Model for Power Pages How mapped identities, security roles, and record filters move external-user authorization closer to the data. We’re introducing a major update to the Power Pages security model: authorization for external users is now enforced natively in Dataver...",
+      "product": "Power Pages",
+      "tags": [
+        "Power Pages",
+        "Dataverse",
+        "管理・ガバナンス"
+      ],
+      "url": "https://devblogs.microsoft.com/powerplatform/power-pages-enhanced-authorization/",
+      "source": "DevBlog"
+    },
     {
       "date": "2026-06-18",
       "title": "「Agent Academy」ハッカソンの受賞者をご紹介",
@@ -246,19 +261,6 @@
         "管理・ガバナンス"
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/power-platform-api-and-sdks-from-ux-first-to-api-first/",
-      "source": "DevBlog"
-    },
-    {
-      "date": "2025-04-28",
-      "title": "Microsoft Copilot Studio ❤️ MCP",
-      "titleOriginal": "Microsoft Copilot Studio ❤️ MCP",
-      "summary": "AIエージェントがリアルタイムのデータを活用したり、組み込み機能の範囲を超えたアクションを実行できたらいいのに、と思ったことはありませんか？　そこで登場するのが「Model Context Protocol（MCP）」です。これは、外部ツールやデータソースをCopilot StudioのAgentに直接統合するための、画期的なソリューションです。🧠 MCPとは？　MCPを、あらゆる…",
-      "summaryOriginal": "Ever wished your AI agents could tap into live data or execute actions beyond their built-in capabilities? Enter Model Context Protocol (MCP)—a game-changer for integrating external tools and data sources directly into your Copilot Studio agents. 🧠 What is MCP? Think of MCP as a universal adapter fo...",
-      "product": "Copilot Studio",
-      "tags": [
-        "Copilot Studio"
-      ],
-      "url": "https://devblogs.microsoft.com/powerplatform/microsoft-copilot-studio-mcp/",
       "source": "DevBlog"
     }
   ]
