@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-31T16:40:01Z",
+  "lastUpdated": "2026-08-01T15:54:49Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
     {
       "date": "2026-07-31",
-      "title": "Power Pages の拡張認証機能",
-      "titleOriginal": "Power Pages Enhanced Authorization",
+      "title": "Power Pagesの拡張認証機能について詳しく解説",
+      "titleOriginal": "A deep dive into Power Pages Enhanced Authorization",
       "summary": "Power Pages 向けの Dataverse ネイティブ認証モデル マッピングされた ID、セキュリティロール、レコードフィルターが、外部ユーザーの認証をデータにより近い位置で実現する仕組み。Power Pages のセキュリティモデルに大幅な更新が導入されました。外部ユーザーの認証が、Dataverse 内でネイティブに適用されるようになりました...",
       "summaryOriginal": "Dataverse Native Authorization Model for Power Pages How mapped identities, security roles, and record filters move external-user authorization closer to the data. We’re introducing a major update to the Power Pages security model: authorization for external users is now enforced natively in Dataver...",
       "product": "Power Pages",
