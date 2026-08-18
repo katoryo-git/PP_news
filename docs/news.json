@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-17T15:17:56Z",
+  "lastUpdated": "2026-08-18T15:23:14Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-08-13",
+      "title": "PPCC 2026への参加登録を今すぐ！学びを求めて参加し、コミュニティとのつながりを深めましょう",
+      "titleOriginal": "Register now for PPCC 2026: Come for the learning, stay for the community",
+      "summary": "ビジネスにおけるAIの活用を検討している場合でも、ローコードを活用したシステム構築を行っている場合でも、プロフェッショナル向けのソリューションを開発している場合でも、あるいは全社的な変革を主導している場合でも、PPCCは、月曜日に職場に戻り、すぐに成果を上げられる態勢を整えるための絶好の機会です。",
+      "summaryOriginal": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact.",
+      "product": "Power Platform",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
+      "source": "Blog"
+    },
     {
       "date": "2026-07-31",
       "title": "Power Pagesの拡張認証機能について詳しく解説",
@@ -195,20 +206,6 @@
         "Power Apps"
       ],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/new-quality-updates-to-modern-controls-in-canvas-apps/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-02-17",
-      "title": "Power Platformの新機能：2026年2月の機能更新プログラム",
-      "titleOriginal": "What’s new in Power Platform: February 2026 feature update",
-      "summary": "アプリ、エージェント、Copilot パブリックプレビュー：Model-driven App における Microsoft 365 Copilot チャット。Copilot チャットが、Power Apps で構築されたアプリ内で直接利用できるようになり、Microsoft 365 Copilot のインテリジェンスをビジネスプロセスの流れに組み込むことが可能になりました。",
-      "summaryOriginal": "Apps, agents and Copilot Public preview: M365 Copilot chat in model-driven apps Copilot chat is now available directly inside apps built with Power Apps, bringing the intelligence of Microsoft 365 Copilot into the flow of business processes.",
-      "product": "Power Apps",
-      "tags": [
-        "Power Apps",
-        "Copilot Studio"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-february-2026-feature-update/",
       "source": "Blog"
     },
     {
