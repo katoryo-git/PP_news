@@ -1,8 +1,21 @@
 {
-  "lastUpdated": "2026-09-02T18:17:42Z",
+  "lastUpdated": "2026-09-03T18:15:51Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-09-01",
+      "title": "「Canvas Authoring Agent」プラグインで、Canvas開発を飛躍的に加速させましょう。本プラグインは、General Availabilityが開始されました！",
+      "titleOriginal": "Turbocharge your canvas development with the canvas authoring agent plugin – now generally available!",
+      "summary": "Canvas Appsにおけるエージェントとの共同編集機能がGenerally Availableとなりました。本日、クリエイターの皆様にとって大きな節目となるニュースをお知らせできることを嬉しく思います。Canvas Appsにおけるエージェントとの共同編集機能が、Generally Availableとなりました。",
+      "summaryOriginal": "Canvas apps agentic coauthoring is now generally available Today we’re excited to announce a major milestone for makers: canvas apps coauthoring with agents is now generally available.",
+      "product": "Power Apps",
+      "tags": [
+        "Power Apps"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/turbocharge-your-canvas-development-with-the-canvas-authoring-agent-plugin-now-generally-available/",
+      "source": "Blog"
+    },
     {
       "date": "2026-08-13",
       "title": "PPCC 2026への参加登録を今すぐ！学びを求めて参加し、コミュニティとのつながりを深めましょう",
@@ -193,19 +206,6 @@
         "Copilot Studio"
       ],
       "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/03/18/2026-release-wave-1-plans-for-microsoft-dynamics-365-microsoft-power-platform-and-copilot-studio-offerings/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-02-25",
-      "title": "Canvas Appsにおけるmodern controlsの新たな品質更新",
-      "titleOriginal": "New quality updates to modern controls in canvas apps",
-      "summary": "今回のリリースでは、Combo Box、Text Input、Date Pickerなど、Canvas Appsの9つのmodern controlsにおいて、品質と信頼性が向上しています。実環境でのパフォーマンス、一貫した動作、本番環境での利用可能性に重点を置いたこれらの更新により、Canvas Appsの開発者が頼りにする基盤がさらに強化されます...",
-      "summaryOriginal": "This release delivers quality and reliability improvements across nine modern controls in canvas apps, including Combo Box, Text Input, and Date Picker. Focused on real‑world performance, consistent behavior, and production readiness, these updates strengthen the foundation makers rely on as canvas ...",
-      "product": "Power Apps",
-      "tags": [
-        "Power Apps"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/new-quality-updates-to-modern-controls-in-canvas-apps/",
       "source": "Blog"
     },
     {
