@@ -1,8 +1,21 @@
 {
-  "lastUpdated": "2026-09-14T19:41:59Z",
+  "lastUpdated": "2026-09-15T18:38:11Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-09-15",
+      "title": "Redisへの負荷から、より健全なサービスへ",
+      "titleOriginal": "From Redis pressure to a healthier service",
+      "summary": "Copilot StudioのAgent FlowsにおけるAzure Managed Redisへの移行から得られた教訓：キャッシュの効率性、クライアントの信頼性、段階的な展開、およびコスト削減。",
+      "summaryOriginal": "Lessons from an Azure Managed Redis migration for Copilot Studio agent flows: cache efficiency, client reliability, staged rollout, and lower costs.",
+      "product": "Copilot Studio",
+      "tags": [
+        "Copilot Studio"
+      ],
+      "url": "https://devblogs.microsoft.com/powerplatform/azure-managed-redis-migration/",
+      "source": "DevBlog"
+    },
     {
       "date": "2026-09-01",
       "title": "「Canvas Authoring Agent」プラグインで、Canvas開発を飛躍的に加速させましょう。本プラグインは、General Availabilityが開始されました！",
@@ -245,19 +258,6 @@
         "Copilot Studio"
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/plan-validation-cat-kit/",
-      "source": "DevBlog"
-    },
-    {
-      "date": "2025-07-15",
-      "title": "Power Platform API および SDK：UXファーストからAPIファーストへ",
-      "titleOriginal": "Power Platform API and SDKs: From UX-First to API-First",
-      "summary": "これまで、Power Platform は「Power Platform admin center（PPAC）」を通じて管理者の業務を支援してきました。この UX を最優先にした環境では、環境の管理、日常業務の自動化、プラットフォーム内の新機能の発見などを行うための、シームレスで直感的なインターフェースが提供されていました。本日、私たちは……",
-      "summaryOriginal": "Historically, Power Platform has empowered administrators through the Power Platform Admin Center (PPAC). This UX-first experience offered a seamless, intuitive interface for managing environments, automating everyday tasks, and discovering new capabilities within the platform. Today, we’re taking a...",
-      "product": "管理・ガバナンス",
-      "tags": [
-        "管理・ガバナンス"
-      ],
-      "url": "https://devblogs.microsoft.com/powerplatform/power-platform-api-and-sdks-from-ux-first-to-api-first/",
       "source": "DevBlog"
     }
   ]
