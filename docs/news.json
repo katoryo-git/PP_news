@@ -1,8 +1,21 @@
 {
-  "lastUpdated": "2026-09-16T18:35:08Z",
+  "lastUpdated": "2026-09-17T18:42:39Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-09-17",
+      "title": "Power Platform CLI ❤️ Power Platform API",
+      "titleOriginal": "Power Platform CLI ❤️ Power Platform API",
+      "summary": "これまで、Power Platform の管理者や開発者は、さまざまなツールを組み合わせて管理タスクを自動化してきました。ある機能が Power Platform admin center には存在しても、PowerShell では別の名称で呼ばれたり、Connector では独自の形状をとっていたり、あるいはコマンドラインではまだ利用できないといったケースがありました。各ツールにはそれぞれ価値が…",
+      "summaryOriginal": "Historically, Power Platform administrators and developers have automated management tasks through a mix of tools. A capability might exist in the admin center, use a different name in PowerShell, have a custom shape in a connector, or not yet be available in the command line. Each tool could be val...",
+      "product": "管理・ガバナンス",
+      "tags": [
+        "管理・ガバナンス"
+      ],
+      "url": "https://devblogs.microsoft.com/powerplatform/power-platform-cli-%e2%9d%a4%ef%b8%8f-power-platform-api/",
+      "source": "DevBlog"
+    },
     {
       "date": "2026-09-15",
       "title": "Redisへの負荷から、より健全なサービスへ",
@@ -245,19 +258,6 @@
         "Copilot Studio"
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/announcing-copilot-studio-agent-academy/",
-      "source": "DevBlog"
-    },
-    {
-      "date": "2025-07-30",
-      "title": "Copilot Studio Kitにおけるプラン検証機能のご紹介",
-      "titleOriginal": "Introducing Plan Validation in Copilot Studio Kit",
-      "summary": "なぜAgentの答えは正しいため、その根拠が間違っていることがあるのか、不思議に思ったことはありませんか？ なぜそれが重要なのか、認識論について少し触れて（少しお付き合いください！）掘り下げてみましょう。知識：単なる「正解」以上のもの 誰かに「今何時ですか？」と尋ねたところ、相手が自信満々に「午後2時30分です」と答えたと想像してみてください。その答えは正しいのですが、しかし……",
-      "summaryOriginal": "Ever wonder why your agent’s answers can be right but for the wrong reasons? Let’s dive into why that matters, with a brief foray into epistemology (bear with me!) Knowledge: More Than Just Right Answers Imagine asking someone the time, and they confidently reply, “2:30 PM.” They’re correct—but what...",
-      "product": "Copilot Studio",
-      "tags": [
-        "Copilot Studio"
-      ],
-      "url": "https://devblogs.microsoft.com/powerplatform/plan-validation-cat-kit/",
       "source": "DevBlog"
     }
   ]
