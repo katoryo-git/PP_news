@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-23T18:45:15Z",
+  "lastUpdated": "2026-09-24T18:45:52Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-09-17",
+      "title": "Power Platformの新機能：2026年9月の機能更新プログラム",
+      "titleOriginal": "What’s new in Power Platform: September 2026 feature update",
+      "summary": "Power Platform：「Power Series」でPower PlatformとAIの実践的なスキルを身につける Power CATチームによって開発された「Power Series」が利用可能になりました。20の実践的なラボを通じて、お客様、パートナー、現場チームが、各自のペースでPower PlatformとAIの実践的なスキルを身につけることができます。",
+      "summaryOriginal": "Power Platform Build hands-on Power Platform and AI expertise with Power Series Developed by the Power CAT team, Power Series is now available with 20 hands-on labs that help customers, partners, and field teams build practical Power Platform and AI skills at their own pace.",
+      "product": "Power Platform",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-september-2026-feature-update/",
+      "source": "Blog"
+    },
     {
       "date": "2026-09-17",
       "title": "Power Platform CLI ❤️ Power Platform API",
@@ -219,19 +230,6 @@
       "product": "Power Platform",
       "tags": [],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-march-2026-feature-update/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-03-18",
-      "title": "Microsoft Dynamics 365、Microsoft Power Platform、および Copilot Studio の各製品に関する 2026 年のリリース第 1 弾の計画",
-      "titleOriginal": "2026 release wave 1 plans for Microsoft Dynamics 365, Microsoft Power Platform, and Copilot Studio offerings",
-      "summary": "Microsoft Dynamics 365、Microsoft Power Platform、および Microsoft 365 Copilot のロールベースの Agents に関する 2026 年のリリース・ウェーブ 1 の計画を発表できることを嬉しく思います。",
-      "summaryOriginal": "We’re excited to publish the 2026 release wave 1 plans for Microsoft Dynamics 365, Microsoft Power Platform, and Role-based agents in Microsoft 365 Copilot.",
-      "product": "Copilot Studio",
-      "tags": [
-        "Copilot Studio"
-      ],
-      "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/03/18/2026-release-wave-1-plans-for-microsoft-dynamics-365-microsoft-power-platform-and-copilot-studio-offerings/",
       "source": "Blog"
     },
     {
