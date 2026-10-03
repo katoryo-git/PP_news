@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-02T19:41:49Z",
+  "lastUpdated": "2026-10-03T18:28:14Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-10-01",
+      "title": "AIによる変革は、すでに構築済みのものから始まります",
+      "titleOriginal": "Your AI transformation starts with what you’ve already built",
+      "summary": "PPCC 2026 では、Power Apps、Power Platform、Copilot Studio が、チームがアイデアを AI を活用したビジネスソリューションへと変革するのをどのように支援しているかをご覧ください。",
+      "summaryOriginal": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026.",
+      "product": "Power Apps",
+      "tags": [
+        "Power Apps",
+        "Copilot Studio"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/your-ai-transformation-starts-with-what-youve-already-built/",
+      "source": "Blog"
+    },
     {
       "date": "2026-09-17",
       "title": "Power Platformの新機能：2026年9月の機能更新プログラム",
@@ -220,17 +234,6 @@
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse/",
       "source": "DevBlog"
-    },
-    {
-      "date": "2026-03-19",
-      "title": "Power Platformの新機能：2026年3月の機能更新プログラム",
-      "titleOriginal": "What’s new in Power Platform: March 2026 feature update",
-      "summary": "Power Platformの月次機能アップデートへようこそ！このブログでは、先月のPower Platformに関するニュースをお届けします。これにより、Power Platformの製品、コミュニティ、学習に関する最新情報を、この1か所でまとめてご確認いただけます。",
-      "summaryOriginal": "Welcome to the Power Platform monthly feature update! We will use this blog to share news in Power Platform from the last month, so you can find a summary of product, community, and learning updates from Power Platform in one easy place.",
-      "product": "Power Platform",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-march-2026-feature-update/",
-      "source": "Blog"
     },
     {
       "date": "2026-01-14",
