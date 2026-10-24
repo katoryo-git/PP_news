@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-23T18:48:41Z",
+  "lastUpdated": "2026-10-24T17:44:37Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-10-22",
+      "title": "マイクロソフト、次世代アプリ開発プラットフォームに関する2つの評価で「リーダー」に選出",
+      "titleOriginal": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+      "summary": "Microsoft Power Platform と Microsoft Copilot Studio が、AI を活用した開発、エージェント、アプリ、Workflows、およびエンタープライズガバナンスを通じて、次世代のビジネスソフトウェアをどのように形作っているかをご覧ください。Microsoft が 2026 年の 2 つのアナリスト評価において「リーダー」に選出された理由をご確認ください。",
+      "summaryOriginal": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a Leader in two 2026 analyst evaluations.",
+      "product": "Copilot Studio",
+      "tags": [
+        "Copilot Studio",
+        "管理・ガバナンス"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+      "source": "Blog"
+    },
     {
       "date": "2026-10-01",
       "title": "AIによる変革は、すでに構築済みのものから始まります",
@@ -207,19 +221,6 @@
         "Copilot Studio"
       ],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/public-preview-your-business-apps-now-part-of-every-conversation/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-04-01",
-      "title": "​信頼できるAIの構築：適応型ガバナンスのための実践的フレームワーク",
-      "titleOriginal": "​Building trustworthy AI: A practical framework for adaptive governance",
-      "summary": "ガバナンスが、単に「やってはいけないこと」のリストに過ぎないのなら、それはガバナンスとは言えない――それは、いずれ問題となる回避策が山積みになっている状態に過ぎない。",
-      "summaryOriginal": "If governance is just a list of things people can’t do, that’s not governance—it's a backlog of workarounds waiting to happen.",
-      "product": "管理・ガバナンス",
-      "tags": [
-        "管理・ガバナンス"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/01/building-trustworthy-ai-a-practical-framework-for-adaptive-governance/",
       "source": "Blog"
     },
     {
