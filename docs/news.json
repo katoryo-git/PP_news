@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-27T19:45:58Z",
+  "lastUpdated": "2026-10-28T20:00:07Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-10-27",
+      "title": "Canvas Studioで、主体性のある共著者を招待して、直接コラボレーションしましょう！",
+      "titleOriginal": "Invite agentic coauthors to collaborate with you directly in canvas studio!",
+      "summary": "本日は、Canvas App開発者の皆様に大きなニュースをお伝えできることを嬉しく思います。GitHubアカウントを使用したCanvas StudioでのAgentによる作成機能が、プレビュー版として利用可能になりました！9月には、Canvas作成AgentプラグインがGenerally Available（GA）を開始しており、これにより、独自のコーディングAgentであるGitHub C...からCanvas Appsを構築できるようになりました。",
+      "summaryOriginal": "Today we’re excited to share big news for canvas app makers: agentic authoring in canvas studio using your GitHub account is now available in preview! In September, the canvas authoring agent plugin became generally available (GA), so you could build canvas apps from your own coding agent – GitHub C...",
+      "product": "Power Apps",
+      "tags": [
+        "Power Apps",
+        "Copilot Studio"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/invite-agentic-coauthors-to-collaborate-with-you-directly-in-canvas-studio/",
+      "source": "Blog"
+    },
     {
       "date": "2026-10-22",
       "title": "マイクロソフト、次世代アプリ開発プラットフォームに関する2つの評価で「リーダー」に選出",
@@ -208,20 +222,6 @@
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/agent-academy-update-special-ops-cowork-collective/",
       "source": "DevBlog"
-    },
-    {
-      "date": "2026-04-02",
-      "title": "Public Preview：ビジネスアプリが、あらゆる会話の一部に",
-      "titleOriginal": "Public Preview: Your business apps, now part of every conversation",
-      "summary": "Power Apps を Microsoft 365 Copilot に連携させましょう。Public Previewでは、開発者はグリッドやフォームを使用して、Model-driven Appのデータへの対話型アクセスを有効にできます。カスタムツールも近日中に利用可能になる予定です。",
-      "summaryOriginal": "Bring your Power Apps into Microsoft 365 Copilot. In public preview, makers can enable conversational access to model-driven app data with Grids and Forms, with Custom Tools coming soon.",
-      "product": "Power Apps",
-      "tags": [
-        "Power Apps",
-        "Copilot Studio"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/public-preview-your-business-apps-now-part-of-every-conversation/",
-      "source": "Blog"
     },
     {
       "date": "2026-04-01",
