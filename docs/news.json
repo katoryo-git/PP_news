@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-28T20:00:07Z",
+  "lastUpdated": "2026-10-29T19:59:45Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-10-28",
+      "title": "1つのプロンプトから管理対象のDataverseアプリへ：DataverseプラグインがCopilot Coworkに登場",
+      "titleOriginal": "From one prompt to a governed Dataverse app: the Dataverse plugin lands in Copilot Cowork",
+      "summary": "Copilot Cowork 用の Microsoft Dataverse プラグインは、平易な言葉でのリクエストを実際の Dataverse テーブル、サンプルデータ、および公開済みアプリに変換します。その際、すべての変更はユーザーによる承認を経て行われ、すべての操作はユーザー自身の権限の下で実行されます。",
+      "summaryOriginal": "The Microsoft Dataverse plugin for Copilot Cowork turns a plain-language request into real Dataverse tables, sample data and a published app, with every change approved by you and every action running under your own permissions.",
+      "product": "Copilot Studio",
+      "tags": [
+        "Copilot Studio",
+        "Dataverse"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/28/dataverse-plugin-copilot-cowork/",
+      "source": "Blog"
+    },
     {
       "date": "2026-10-27",
       "title": "Canvas Studioで、主体性のある共著者を招待して、直接コラボレーションしましょう！",
@@ -197,17 +211,6 @@
         "Copilot Studio"
       ],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/22/custom-tools-and-rich-ui-for-app-based-conversations-are-now-in-public-preview/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Power Platform Monitorのアラート機能がGenerally Availableになりました",
-      "titleOriginal": "Power Platform Monitor Alerts Are Now Generally Available",
-      "summary": "アプリ、Agents、およびフロー向けの Power Platform Monitor アラートが、General Availability 開始となりましたことをお知らせいたします！Monitor アラートは、品質向上のための継続的な取り組みを経て、General Availability に必要な信頼性および成熟度の基準を満たしています。",
-      "summaryOriginal": "We are excited to announce that Power Platform Monitor alerts for apps, agents, and flows are now generally available! Monitor alerts meet the reliability and maturity standards required for general availability, following sustained investments to improve quality.",
-      "product": "Power Platform",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-monitor-alerts-are-now-generally-available/",
       "source": "Blog"
     },
     {
