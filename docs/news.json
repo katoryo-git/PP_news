@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-29T19:59:45Z",
+  "lastUpdated": "2026-10-30T19:47:46Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-10-29",
+      "title": "メイカーたちによって築かれた：Power Platform コミュニティ・カンファレンスの5年間",
+      "titleOriginal": "Built by makers: Five years of Power Platform Community Conference",
+      "summary": "設立から5年が経った今も、PPCCはメイカーたちの手によって築かれています。今年のイベントを形作ったアイデア、イノベーション、そしてコミュニティのひとときをご覧ください。",
+      "summaryOriginal": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year’s event.",
+      "product": "Power Platform",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/29/built-by-makers-five-years-of-power-platform-community-conference/",
+      "source": "Blog"
+    },
     {
       "date": "2026-10-28",
       "title": "1つのプロンプトから管理対象のDataverseアプリへ：DataverseプラグインがCopilot Coworkに登場",
@@ -199,19 +210,6 @@
       ],
       "url": "https://devblogs.microsoft.com/powerplatform/the-new-loop-how-power-pages-builds-software-with-ai/",
       "source": "DevBlog"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "アプリベースの会話向けのカスタムツールと充実したUIが、Public Previewとして公開されました",
-      "titleOriginal": "Custom tools and rich UI for app-based conversations are now in Public Preview",
-      "summary": "Microsoft 365 Copilotにおいて、カスタムツールやアプリを活用した充実したUI体験が、ビジネスアプリの対話体験をどのように向上させるかをご覧ください。このPublic Previewでは、業務の流れの中で直接、アプリのインテリジェンスを活用し、アクションを促進し、より文脈に沿った直感的なインタラクションを実現する新しい方法が紹介されています。",
-      "summaryOriginal": "Discover how custom tools and rich, app‑powered UI experiences can elevate business app conversations in Microsoft 365 Copilot. This public preview introduces new ways to surface app intelligence, drive action, and deliver more contextual, intuitive interactions - directly within the flow of work.",
-      "product": "Copilot Studio",
-      "tags": [
-        "Copilot Studio"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/22/custom-tools-and-rich-ui-for-app-based-conversations-are-now-in-public-preview/",
-      "source": "Blog"
     },
     {
       "date": "2026-04-06",
