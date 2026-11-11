@@ -1,8 +1,21 @@
 {
-  "lastUpdated": "2026-11-10T21:07:26Z",
+  "lastUpdated": "2026-11-11T21:40:30Z",
   "totalCount": 20,
   "translationNote": "タイトル・要約はDeepLによる機械翻訳です (固有名詞は英語のまま保持)",
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "Power Platformの新機能：2026年10月/11月の機能更新プログラム",
+      "titleOriginal": "What’s new in Power Platform: October/November 2026 feature update",
+      "summary": "Power Apps Public Preview：最新の添付ファイル機能で柔軟なファイル操作を実現 新しい「モダン添付ファイル」コントロールにより、作成者はフォーム内で、あるいはキャンバス上のスタンドアロンコントロールとして機能する、Fluent スタイルのファイル操作体験を利用できるようになります。",
+      "summaryOriginal": "Power Apps Public preview: Build flexible file experiences with modern attachments The new modern attachments control gives makers a Fluent file experience that works inside forms or as a standalone control on a canvas.",
+      "product": "Power Apps",
+      "tags": [
+        "Power Apps"
+      ],
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-october-2026-feature-update/",
+      "source": "Blog"
+    },
     {
       "date": "2026-10-29",
       "title": "メイカーたちによって築かれた：Power Platform コミュニティ・カンファレンスの5年間",
@@ -170,19 +183,6 @@
         "Power Apps"
       ],
       "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-fx-user-defined-types-generally-available/",
-      "source": "Blog"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Power Apps MCP Server、企業向けAgents向けにクローズドループ学習を導入",
-      "titleOriginal": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
-      "summary": "エージェントの構築は迅速に行えます。しかし、組織の仕組みをエージェントに教えることが、これまで最も難しい部分でした。Power Apps MCP Serverに「クローズドループ学習」を導入しました。修正が行われるたびに、エージェントが自動的に貴社のビジネスに合わせて調整されます。",
-      "summaryOriginal": "Building agents is fast. Teaching them how your organization works has been the hard part. Introducing closed-loop learning on the Power Apps MCP server: every correction calibrates the agent to your business, automatically.",
-      "product": "Power Apps",
-      "tags": [
-        "Power Apps"
-      ],
-      "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-apps-mcp-server-introduces-closed-loop-learning-for-enterprise-agents/",
       "source": "Blog"
     },
     {
